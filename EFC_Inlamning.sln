@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFC_Inlamning", "EFC_Inlamning\EFC_Inlamning.csproj", "{A0BC3FB1-AADA-47BA-8899-274B50398D8C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8F0EC713-59EB-402D-9892-A4A5DBD7104E} = {8F0EC713-59EB-402D-9892-A4A5DBD7104E}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLayer", "DataLayer\DataLayer.csproj", "{8F0EC713-59EB-402D-9892-A4A5DBD7104E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0BC3FB1-AADA-47BA-8899-274B50398D8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0BC3FB1-AADA-47BA-8899-274B50398D8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0BC3FB1-AADA-47BA-8899-274B50398D8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0BC3FB1-AADA-47BA-8899-274B50398D8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F0EC713-59EB-402D-9892-A4A5DBD7104E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F0EC713-59EB-402D-9892-A4A5DBD7104E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F0EC713-59EB-402D-9892-A4A5DBD7104E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F0EC713-59EB-402D-9892-A4A5DBD7104E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B2ECA40B-667A-496D-AE0A-2F86CCC22175}
+	EndGlobalSection
+EndGlobal
